@@ -1,0 +1,13 @@
+_id: fld_ae4bbeb93da7411795796bb8d0df322c
+type: RequestGroup
+parentId: fld_cae1b0cfab8f4926a973fd261bda53da
+modified: 1689707754997
+created: 1689707696519
+name: Weekly Report Manager
+description: ""
+environment:
+  resourceUrl: "{{ _.moduleUrl }}/weekly-report-manager"
+environmentPropertyOrder:
+  "&":
+    - resourceUrl
+metaSortKey: -1663762703542.25

@@ -1,0 +1,24 @@
+_id: req_c59f91ed99034ebbbabc56317123733b
+type: Request
+parentId: fld_2c0cd1b3ba7e443f852d19e848eac6da
+modified: 1665173045068
+created: 1664400811533
+url: https://desk.zoho.com/api/v1/agents/766213814/timeEntry?from=1&limit=100&modifiedTimeRange=2022-09-01T00:00:00.000Z,2022-09-30T23:59:59.000Z
+name: New Request
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_3c55dcbc37dd4ef1b2ec7c42820cfbab',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1664387435626.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

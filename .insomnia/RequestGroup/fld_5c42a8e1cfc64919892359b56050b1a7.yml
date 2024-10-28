@@ -1,0 +1,13 @@
+_id: fld_5c42a8e1cfc64919892359b56050b1a7
+type: RequestGroup
+parentId: fld_cae1b0cfab8f4926a973fd261bda53da
+modified: 1691763288439
+created: 1691761867854
+name: Debt Hours
+description: ""
+environment:
+  resourceUrl: "{{ _.moduleUrl }}/debt-hours"
+environmentPropertyOrder:
+  "&":
+    - resourceUrl
+metaSortKey: -1663761644044.875

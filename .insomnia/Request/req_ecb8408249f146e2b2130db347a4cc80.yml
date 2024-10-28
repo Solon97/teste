@@ -1,0 +1,44 @@
+_id: req_ecb8408249f146e2b2130db347a4cc80
+type: Request
+parentId: fld_6145884ad4c440efb0c3370fa6428ef8
+modified: 1691518174895
+created: 1691507780305
+url: "{{ _.resourceUrl }}/hoursBalance"
+name: Hour Balance
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_f1de4f7582fc4f82b23ac046aa8489cf
+    name: limit
+    value: "10"
+    description: ""
+  - id: pair_7de9545b0a2e477eb7b2bf4796e5ccf2
+    name: page
+    value: "0"
+    description: ""
+  - id: pair_dbf522fdc2944717843e2ff5955e03ed
+    name: month
+    value: "08"
+    description: ""
+  - id: pair_2eaeeea9393f46e0994a00de36d8c988
+    name: year
+    value: "2023"
+    description: ""
+  - id: pair_aca56d6033c744fab94a411a85767116
+    name: zohoId
+    value: "707515000003004445"
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_5c46352951c041ba99aa18bf2e69fd95', '',
+    'when-expired', 60 %}"
+metaSortKey: -1663730900840.9556
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

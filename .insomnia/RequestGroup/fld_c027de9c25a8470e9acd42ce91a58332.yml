@@ -1,0 +1,13 @@
+_id: fld_c027de9c25a8470e9acd42ce91a58332
+type: RequestGroup
+parentId: fld_a22af41a505544d9930eceff0da9d6df
+modified: 1663764845729
+created: 1659640416449
+name: Auth
+description: ""
+environment:
+  resourceUrl: "{{ _.moduleUrl }}/auth"
+environmentPropertyOrder:
+  "&":
+    - resourceUrl
+metaSortKey: -1659639663521

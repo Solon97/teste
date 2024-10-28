@@ -1,0 +1,13 @@
+_id: fld_18ceb338c3fe4b72974df1d19160834d
+type: RequestGroup
+parentId: fld_0245ea7611d1479bbfc116e7f4dd6cfb
+modified: 1663764853422
+created: 1663764822537
+name: API Usage
+description: ""
+environment:
+  resourceUrl: "{{ _.moduleUrl }}/api-usage"
+environmentPropertyOrder:
+  "&":
+    - resourceUrl
+metaSortKey: -1663764822537

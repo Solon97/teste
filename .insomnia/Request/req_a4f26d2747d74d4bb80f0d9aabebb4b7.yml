@@ -1,0 +1,33 @@
+_id: req_a4f26d2747d74d4bb80f0d9aabebb4b7
+type: Request
+parentId: fld_c027de9c25a8470e9acd42ce91a58332
+modified: 1695391110809
+created: 1663939780112
+url: "{{ _.resourceUrl }}/profile"
+name: Profile
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"login": "admin",
+    	"password": "tsp123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5e0c8733022e4f8b98c4870c847a59b3
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_902295345c0e4bd5aa8613b58c54bcab', '',
+    'when-expired', 300 %}"
+metaSortKey: -1659640404152
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

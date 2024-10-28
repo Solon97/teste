@@ -1,0 +1,33 @@
+_id: req_9390f19a1e2d4d11b78eeedc8472e6b3
+type: Request
+parentId: fld_4f14b0a8f9cc4ae4b0c4944920b6a18d
+modified: 1721840719944
+created: 1716378422177
+url: "{{ _.apiUrl }}/applications/zoho-center/time-entry/importTicketsFull"
+name: ticketsImport
+description: ""
+method: POST
+body: {}
+parameters:
+  - id: pair_67fe87982304450f8f18288fcc09d0f1
+    name: limit
+    value: "1"
+    description: ""
+  - id: pair_cfc4690732c2422f8575c37989c4c992
+    name: page
+    value: "0"
+    description: ""
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_946da0b470bd4563ba61d67105782847', '',
+    'when-expired', 300 %}"
+metaSortKey: -1663039719642.711
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

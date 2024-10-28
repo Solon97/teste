@@ -1,0 +1,13 @@
+_id: fld_2b56a71197434ad882b68dd32f0dcb80
+type: RequestGroup
+parentId: fld_e57442d2d8a24de0b645a2fbb2cf8bd7
+modified: 1664983180164
+created: 1664982515509
+name: Security Parameters
+description: ""
+environment:
+  resourceUrl: "{{ _.moduleUrl }}/security-parameters"
+environmentPropertyOrder:
+  "&":
+    - resourceUrl
+metaSortKey: -1663764822537

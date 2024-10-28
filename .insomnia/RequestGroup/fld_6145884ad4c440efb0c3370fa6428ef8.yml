@@ -1,0 +1,13 @@
+_id: fld_6145884ad4c440efb0c3370fa6428ef8
+type: RequestGroup
+parentId: fld_cae1b0cfab8f4926a973fd261bda53da
+modified: 1664662750212
+created: 1664662740152
+name: Timesheet
+description: ""
+environment:
+  resourceUrl: "{{ _.moduleUrl }}/timesheet"
+environmentPropertyOrder:
+  "&":
+    - resourceUrl
+metaSortKey: -1663756346558

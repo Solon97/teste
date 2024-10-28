@@ -1,0 +1,40 @@
+_id: req_bf40cd5ce415476da4fa8f19b41d24d2
+type: Request
+parentId: fld_cae1b0cfab8f4926a973fd261bda53da
+modified: 1730122620509
+created: 1697110741043
+url: "{{ _.moduleUrl }}/invoices/timesheets"
+name: ListTimesheet
+description: ""
+method: GET
+body: {}
+parameters:
+  - name: orderDirection
+    value: desc
+    id: pair_6bddd791ef9443af89adcb7f2330def1
+  - name: limit
+    value: "10"
+    id: pair_d4e7824bd6de47d9a7b2f240002ff2dc
+  - name: page
+    value: "0"
+    id: pair_28c89b871bb0457ba0ac7ed0c4b93c92
+  - name: orderBy
+    value: Timesheet.date
+    id: pair_06547f548d7244df8e1bc71085593d5d
+  - id: pair_0366e35c71d34bd8a4fbbfb328022810
+    name: coreUserId
+    value: "197"
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_946da0b470bd4563ba61d67105782847', '',
+    'when-expired', 300 %}"
+metaSortKey: -1674097240584.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_4bedaf3208a74b5daebd5f484e3af62f
+type: Request
+parentId: fld_e240472088a94c3391694409fb5104ce
+modified: 1666375090985
+created: 1666363122394
+url: "{{ _.resourceUrl }}/1"
+name: Save
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"userId": "BAMBROZIO",
+    	"firstName": "Bruno"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_902295345c0e4bd5aa8613b58c54bcab', '',
+    'when-expired', 300 %}"
+metaSortKey: -1663730402444.211
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

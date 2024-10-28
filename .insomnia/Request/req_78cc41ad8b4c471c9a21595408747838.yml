@@ -1,0 +1,48 @@
+_id: req_78cc41ad8b4c471c9a21595408747838
+type: Request
+parentId: fld_65af1496299643189a2eb7ccac51724d
+modified: 1717531731801
+created: 1716860856369
+url: "{{ _.apiUrl }}/applications/dashboard/dashboard/getWeeksDetails"
+name: getWeeksDetails
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_67fe87982304450f8f18288fcc09d0f1
+    name: limit
+    value: "1"
+    description: ""
+    disabled: false
+  - id: pair_cfc4690732c2422f8575c37989c4c992
+    name: page
+    value: "0"
+    description: ""
+    disabled: false
+  - id: pair_9b9565fd0fc94b32922060b9f6edcc03
+    name: reportingTo
+    value: Sol Barrera LAC-00002
+    description: ""
+    disabled: true
+  - id: pair_e7ce03e2539b429fbe4c6d667569ade1
+    name: weeks
+    value: "1"
+    description: ""
+  - id: pair_bea4c90ce71d47049f562593e6d67e4c
+    name: email
+    value: acarmanhani@tsp.tech
+    description: ""
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_946da0b470bd4563ba61d67105782847', '',
+    'when-expired', 300 %}"
+metaSortKey: -1711339789715.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

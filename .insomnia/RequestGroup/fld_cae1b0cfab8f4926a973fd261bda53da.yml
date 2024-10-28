@@ -1,0 +1,13 @@
+_id: fld_cae1b0cfab8f4926a973fd261bda53da
+type: RequestGroup
+parentId: wrk_78364b1a8d4448068aad13e81f1f21af
+modified: 1669746909483
+created: 1664479804239
+name: ZohoCenter
+description: ""
+environment:
+  moduleUrl: "{{ _.apiUrl }}/applications/zoho-center"
+environmentPropertyOrder:
+  "&":
+    - moduleUrl
+metaSortKey: -1660140020933.75

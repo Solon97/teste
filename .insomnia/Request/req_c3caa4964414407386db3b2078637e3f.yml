@@ -1,0 +1,24 @@
+_id: req_c3caa4964414407386db3b2078637e3f
+type: Request
+parentId: fld_6145884ad4c440efb0c3370fa6428ef8
+modified: 1706821460270
+created: 1665058963209
+url: "{{ _.resourceUrl }}/run-function/import-timesheet/ffonseca@tsp.tech/2024/01"
+name: Manual Import
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_946da0b470bd4563ba61d67105782847', '', 'always',
+    300 %}"
+metaSortKey: -1663728814192.3438
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

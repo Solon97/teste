@@ -1,0 +1,44 @@
+_id: req_5b8a325dec0a4711a5b43f034547815a
+type: Request
+parentId: fld_2c0cd1b3ba7e443f852d19e848eac6da
+modified: 1729712254659
+created: 1664646732714
+url: https://projectsapi.zoho.com/restapi/portal/tsptech/logs
+name: Projects Time Entries
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_e35b835c542241939e402f40a389775e
+    name: view_type
+    value: month
+    description: ""
+  - id: pair_af45c56feaab4d7cad4b3e0529f6dd97
+    name: users_list
+    value: "774230124"
+    description: ""
+  - id: pair_606b54ad19474bf28c78b18e5e32731c
+    name: date
+    value: 06-01-2023
+    description: ""
+  - id: pair_d5ff0002fa8f45f3a6543ff45224982c
+    name: bill_status
+    value: All
+    description: ""
+  - id: pair_9626a63d9a3d4f5492d55527471b70a5
+    name: component_type
+    value: task
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_e55ee57882a7498faf28198d48e4534b',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 300 %}"
+metaSortKey: -1664387760974.125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

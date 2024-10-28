@@ -1,0 +1,47 @@
+_id: req_4a36cbd3a24d4d5295478e4ad126ce50
+type: Request
+parentId: fld_2c0cd1b3ba7e443f852d19e848eac6da
+modified: 1674674830092
+created: 1667389600560
+url: https://people.zoho.com/people/api/timetracker/gettimelogs
+name: People Time Entries
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_3de044e6a1b34e5a83f7c063ea88ef87
+    name: user
+    value: wmatsuo@tsp.tech
+    description: ""
+  - id: pair_30d607de30754067963f022bc898fb7b
+    name: fromDate
+    value: 2022-09-01
+    description: ""
+  - id: pair_ff57ff2232ad421ca66a6f800fd17718
+    name: toDate
+    value: 2022-09-30
+    description: ""
+  - id: pair_b5ccfe815df74c2db28f531bcad5706c
+    name: ""
+    value: ""
+    description: ""
+  - id: pair_2c1716b9c21c4c97837e67bf48db3596
+    name: ""
+    value: ""
+    description: ""
+  - id: pair_6b09be3942954c6fb20f4e7e621f05f3
+    name: ""
+    value: ""
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: Bearer 1000.88442467084e4306cc5cf02fc2130900.9ea5b7bd01be9aa7763af64ae3b4b784
+metaSortKey: -1664387923648.0625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

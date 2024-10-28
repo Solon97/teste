@@ -1,0 +1,13 @@
+_id: fld_9e919a5d39fa4c44bd27e8eeebf2c030
+type: RequestGroup
+parentId: fld_e57442d2d8a24de0b645a2fbb2cf8bd7
+modified: 1665407661565
+created: 1665407655000
+name: Integration Flow
+description: ""
+environment:
+  resourceUrl: "{{ _.moduleUrl }}/integration-flow"
+environmentPropertyOrder:
+  "&":
+    - resourceUrl
+metaSortKey: -1663758465552.75

@@ -1,0 +1,43 @@
+_id: req_fc91d8cfc1e34c809e643fc783c82110
+type: Request
+parentId: fld_4f14b0a8f9cc4ae4b0c4944920b6a18d
+modified: 1701808590117
+created: 1701801945816
+url: http://localhost:3000/applications/zoho-center/invoices/getBillPDF/1583504000023820283
+name: get PDF
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_67fe87982304450f8f18288fcc09d0f1
+    name: limit
+    value: "1"
+    description: ""
+  - id: pair_cfc4690732c2422f8575c37989c4c992
+    name: page
+    value: "0"
+    description: ""
+    disabled: false
+headers:
+  - id: pair_e21d5070972348b28cd4f6e304d6e1c3
+    name: Accept
+    value: application/octet-stream
+    description: ""
+    disabled: true
+  - id: pair_56897c458c624b7f9b88e5cea6278575
+    name: responseType
+    value: stream
+    description: ""
+    disabled: true
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_946da0b470bd4563ba61d67105782847', '',
+    'when-expired', 300 %}"
+metaSortKey: -1662982913388.5625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

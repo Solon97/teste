@@ -1,0 +1,24 @@
+_id: req_76cd5d7a3479493eafc4df19a908a4f9
+type: Request
+parentId: fld_17fa22cae96d424688230df887f77325
+modified: 1669746868963
+created: 1669746868963
+url: "{{ _.resourceUrl }}/run-function/process-timesheet/all/2022/05"
+name: Process Timesheet
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_902295345c0e4bd5aa8613b58c54bcab', '',
+    'when-expired', 300 %}"
+metaSortKey: -1663727755357.7656
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

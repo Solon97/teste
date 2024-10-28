@@ -1,0 +1,13 @@
+_id: fld_85a6ac5fa6b245f2878eb836678b4674
+type: RequestGroup
+parentId: fld_a22af41a505544d9930eceff0da9d6df
+modified: 1659640402022
+created: 1659639663471
+name: Country
+description: ""
+environment:
+  resourceUrl: "{{ _.moduleUrl }}/country"
+environmentPropertyOrder:
+  "&":
+    - resourceUrl
+metaSortKey: -1659639663471

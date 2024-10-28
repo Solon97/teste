@@ -1,0 +1,13 @@
+_id: fld_5a867b7a19ca4050adb47029a11d0750
+type: RequestGroup
+parentId: wrk_78364b1a8d4448068aad13e81f1f21af
+modified: 1666360047907
+created: 1666359901497
+name: SFUsersManager
+description: ""
+environment:
+  moduleUrl: "{{ _.apiUrl }}/applications/sf-users-manager"
+environmentPropertyOrder:
+  "&":
+    - moduleUrl
+metaSortKey: -1660514957065.8125

@@ -1,0 +1,49 @@
+_id: req_91f05cfc76df45d3bb51ab0fd7905407
+type: Request
+parentId: fld_65af1496299643189a2eb7ccac51724d
+modified: 1718048951375
+created: 1717548892665
+url: "{{ _.apiUrl }}/applications/dashboard/dashboard/run-analytics-tasks-full"
+name: run-work-hours-plan
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_67fe87982304450f8f18288fcc09d0f1
+    name: limit
+    value: "1"
+    description: ""
+    disabled: false
+  - id: pair_cfc4690732c2422f8575c37989c4c992
+    name: page
+    value: "0"
+    description: ""
+    disabled: false
+  - id: pair_9b9565fd0fc94b32922060b9f6edcc03
+    name: reportingTo
+    value: Bruno Ambrozio LAC-00037
+    description: ""
+    disabled: true
+  - id: pair_e7ce03e2539b429fbe4c6d667569ade1
+    name: weeks
+    value: "4"
+    description: ""
+    disabled: true
+  - id: pair_bea4c90ce71d47049f562593e6d67e4c
+    name: email
+    value: acarmanhani@tsp.tech
+    description: ""
+    disabled: true
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_946da0b470bd4563ba61d67105782847', '',
+    'when-expired', 300 %}"
+metaSortKey: -1711587892979.7812
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

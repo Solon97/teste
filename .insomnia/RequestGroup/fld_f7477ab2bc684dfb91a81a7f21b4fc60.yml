@@ -1,0 +1,13 @@
+_id: fld_f7477ab2bc684dfb91a81a7f21b4fc60
+type: RequestGroup
+parentId: fld_6e2b81ec9e64452cabaaf21f921ed8e8
+modified: 1659724403324
+created: 1659722191665
+name: Application
+description: ""
+environment:
+  resourceUrl: "{{ _.moduleUrl }}/application"
+environmentPropertyOrder:
+  "&":
+    - resourceUrl
+metaSortKey: -1657966330761.875

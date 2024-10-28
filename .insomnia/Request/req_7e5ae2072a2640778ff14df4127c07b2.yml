@@ -1,0 +1,28 @@
+_id: req_7e5ae2072a2640778ff14df4127c07b2
+type: Request
+parentId: fld_ae4bbeb93da7411795796bb8d0df322c
+modified: 1695144016525
+created: 1689008275215
+url: "{{ _.resourceUrl }}/weeklyReport"
+name: Weekly Report
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_f1de4f7582fc4f82b23ac046aa8489cf
+    name: ""
+    value: ""
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_5c46352951c041ba99aa18bf2e69fd95', '',
+    'when-expired', 60 %}"
+metaSortKey: -1663730922018.0151
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

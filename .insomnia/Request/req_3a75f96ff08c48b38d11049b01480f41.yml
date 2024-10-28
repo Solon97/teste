@@ -1,0 +1,30 @@
+_id: req_3a75f96ff08c48b38d11049b01480f41
+type: Request
+parentId: fld_c027de9c25a8470e9acd42ce91a58332
+modified: 1708955662743
+created: 1659640446702
+url: "{{ _.apiUrl }}/core/auth/login"
+name: Login
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"login": "admin",
+    	"password": "senha@123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_5e0c8733022e4f8b98c4870c847a59b3
+authentication: {}
+metaSortKey: -1659640446702
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

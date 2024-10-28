@@ -1,0 +1,44 @@
+_id: req_36224846ca784251ab27b9e82192f70b
+type: Request
+parentId: fld_2c0cd1b3ba7e443f852d19e848eac6da
+modified: 1674669535953
+created: 1674669500373
+url: https://desk.zoho.com/api/v1/agents
+name: Desk Agents
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_48df470508ba44ca9ce78ec6e7d6efaf
+    name: from
+    value: "1"
+    description: ""
+    disabled: true
+  - id: pair_967547fa585c480d88ee7dd47e2a13c2
+    name: limit
+    value: "200"
+    description: ""
+    disabled: false
+  - id: pair_35857722c6f4426c879666bda2af9ded
+    name: modifiedTimeRange
+    value: 2022-08-01T00:00:00.000Z,2022-08-31T23:59:59.999Z
+    description: ""
+    disabled: true
+  - id: pair_0628ebe258474c5894e72843d44f3151
+    name: orderBy
+    value: DESC
+    description: ""
+    disabled: true
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_eac555a47ad244fb9f8e16a73c7a4fab',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1664385808886.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

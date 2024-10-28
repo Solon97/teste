@@ -1,0 +1,46 @@
+_id: req_d036e458b5cb417182feffff62a03d41
+type: Request
+parentId: fld_2c0cd1b3ba7e443f852d19e848eac6da
+modified: 1688820100992
+created: 1667389525600
+url: https://accounts.zoho.com/oauth/v2/token
+name: Auth People
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_4cf3406701a0456db36b20f2d86814e9
+      name: refresh_token
+      value: 1000.84f0e1d93a64780fd090329477868dac.91753ed32f0c066d911dbfbeae10643e
+      description: ""
+    - id: pair_780133acd19543abaa5f7974927078a8
+      name: client_id
+      value: 1000.1NKQ3E0MCXYGZBIPGAJ4FQEU47TXFN
+      description: ""
+    - id: pair_9152fb12120649359bb777ec8cc64e06
+      name: client_secret
+      value: 939911f1c4332c79eea52e836b00a57226c580cacc
+      description: ""
+    - id: pair_73be04529d024da282b7eea2bc371693
+      name: grant_type
+      value: refresh_token
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_f711447e85e84918b21d6081823e22bc
+  - id: pair_210ba5d720dd4a15aaff52b792cd1036
+    name: ""
+    value: ""
+    description: ""
+authentication: {}
+metaSortKey: -1664365420124
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

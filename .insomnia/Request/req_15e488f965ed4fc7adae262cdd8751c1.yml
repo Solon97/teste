@@ -1,0 +1,24 @@
+_id: req_15e488f965ed4fc7adae262cdd8751c1
+type: Request
+parentId: fld_17fa22cae96d424688230df887f77325
+modified: 1695391480044
+created: 1669746868959
+url: "{{ _.resourceUrl }}/run-function/import-timesheet/pandrade@tsp.tech/2022/12"
+name: Manual Import
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_902295345c0e4bd5aa8613b58c54bcab', '', 'always',
+    300 %}"
+metaSortKey: -1663728814192.3438
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,32 @@
+_id: req_2bccfacd044c444d9bf6a0422df9bd53
+type: Request
+parentId: fld_2b56a71197434ad882b68dd32f0dcb80
+modified: 1664983206551
+created: 1664982515518
+url: "{{ _.resourceUrl }}"
+name: List
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_775872f4ee674f6db52b226f253b0aa8
+    name: page
+    value: "0"
+    description: ""
+  - id: pair_162f5458ca6d4c519880080a67dfe707
+    name: limit
+    value: "10"
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_902295345c0e4bd5aa8613b58c54bcab', '',
+    'when-expired', 300 %}"
+metaSortKey: -1663730931861.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

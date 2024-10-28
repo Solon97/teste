@@ -1,0 +1,46 @@
+_id: req_695ac5d5192d478e8051e2610e9f7352
+type: Request
+parentId: fld_be2cd9e0cdbe478f9b281d379646bc2f
+modified: 1666375158392
+created: 1665407641210
+url: "{{ _.resourceUrl }}"
+name: Save
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "rTest2",
+    	"shortDescription": "UserCredentials",
+    	"version": "1.0.0"
+    }
+parameters:
+  - id: pair_775872f4ee674f6db52b226f253b0aa8
+    name: ""
+    value: ""
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4b95ce2192104a77a2e2f3202694f7b6
+  - id: pair_501eaf903b4241a0b037a778f965b472
+    name: x-customer-api-user
+    value: eyJpZCI6MTIsImVtYWlsIjoiY3BpbmNpYXJhQHRzcC50ZWNoIiwiZmlyc3ROYW1lIjoiQ2F1ZXQiLCJsYXN0TmFtZSI6IlBpbmNpYXJhIiwicm9sZXMiOlsiY2FuZGlkYXRlIl0sInR5cGUiOjAsImV4cCI6MTY2NDM0NzY4NCwiaWF0IjoxNjY0MjkwMDg0LCJhcGlLZXkiOiI5MjEwQTlEQkVEMDM0MkU1QUFGQTVDOUIxMDE4QjQzMSJ9
+    description: ""
+  - id: pair_eccc0238a6db4aadbbb002bc2c2f2988
+    name: ""
+    value: ""
+    description: ""
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_902295345c0e4bd5aa8613b58c54bcab', '',
+    'when-expired', 300 %}"
+metaSortKey: -1663764814568
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

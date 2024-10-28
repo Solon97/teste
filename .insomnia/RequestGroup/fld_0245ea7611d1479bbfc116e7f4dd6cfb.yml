@@ -1,0 +1,13 @@
+_id: fld_0245ea7611d1479bbfc116e7f4dd6cfb
+type: RequestGroup
+parentId: wrk_78364b1a8d4448068aad13e81f1f21af
+modified: 1664982546780
+created: 1663764808905
+name: Billing
+description: ""
+environment:
+  moduleUrl: "{{ _.apiUrl }}/billing"
+environmentPropertyOrder:
+  "&":
+    - moduleUrl
+metaSortKey: -1660639935776.5

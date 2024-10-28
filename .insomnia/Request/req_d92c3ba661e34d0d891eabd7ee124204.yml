@@ -1,0 +1,34 @@
+_id: req_d92c3ba661e34d0d891eabd7ee124204
+type: Request
+parentId: fld_5c42a8e1cfc64919892359b56050b1a7
+modified: 1691781597355
+created: 1691761867857
+url: "{{ _.resourceUrl }}/"
+name: Save
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"zohoUserId": "63d1521172886cf6e00d5cdd",
+    	"date": "{% DateAdd 0, -1, 0, 'YYYY-MM-DDTHH:mm:ssZ' %}",
+    	"hoursDecimal": 15,
+    	"comment": "Teste 4"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_5c46352951c041ba99aa18bf2e69fd95', '',
+    'when-expired', 300 %}"
+metaSortKey: -1663730931811.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

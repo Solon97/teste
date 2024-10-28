@@ -1,0 +1,29 @@
+_id: req_66ae572c9e5f4311a53b0f8e1368476c
+type: Request
+parentId: fld_65af1496299643189a2eb7ccac51724d
+modified: 1722343857527
+created: 1721741048844
+url: "{{ _.apiUrl }}/applications/dashboard/dashboard/deleteWeekCalendars"
+name: deleteWeekCalendars
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_f8d62271dda740c3ade463d1b3a0cbb2
+    name: today
+    value: 2024-07-28
+    description: ""
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_946da0b470bd4563ba61d67105782847', '',
+    'when-expired', 300 %}"
+metaSortKey: -1712208151139.5469
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

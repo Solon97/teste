@@ -1,0 +1,30 @@
+_id: req_80fcc3e99c2f4e92a7096fb704d58434
+type: Request
+parentId: fld_9211a7f539334f0fae43a3515aaa7aed
+modified: 1668599319564
+created: 1668598831079
+url: "{{ _.uiPathApi
+  }}/orchestrator_/odata/Robots/UiPath.Server.Configuration.OData.GetConfigured\
+  Robots"
+name: 3 - Get Bot Number
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_6292e3de5cfc4f869ae367d2a37be26c
+    name: X-UIPATH-OrganizationUnitId
+    value: "{{ _.organizationId }}"
+    description: ""
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_5321193212ec40dcbf0cbff6ac5a455e',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 300 %}"
+metaSortKey: -1668446837919.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

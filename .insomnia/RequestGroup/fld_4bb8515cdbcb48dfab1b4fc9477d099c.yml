@@ -1,0 +1,13 @@
+_id: fld_4bb8515cdbcb48dfab1b4fc9477d099c
+type: RequestGroup
+parentId: fld_e57442d2d8a24de0b645a2fbb2cf8bd7
+modified: 1664982515524
+created: 1664982515524
+name: Customer
+description: ""
+environment:
+  resourceUrl: "{{ _.moduleUrl }}/customer"
+environmentPropertyOrder:
+  "&":
+    - resourceUrl
+metaSortKey: -1663730918621

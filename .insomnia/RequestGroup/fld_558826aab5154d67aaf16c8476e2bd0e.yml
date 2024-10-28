@@ -1,0 +1,13 @@
+_id: fld_558826aab5154d67aaf16c8476e2bd0e
+type: RequestGroup
+parentId: wrk_78364b1a8d4448068aad13e81f1f21af
+modified: 1669746911724
+created: 1669746868922
+name: DocVerification
+description: ""
+environment:
+  moduleUrl: "{{ _.apiUrl }}/applications/document-verification"
+environmentPropertyOrder:
+  "&":
+    - moduleUrl
+metaSortKey: -1660015042210.5625

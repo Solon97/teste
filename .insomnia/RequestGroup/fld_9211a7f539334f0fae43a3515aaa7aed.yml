@@ -1,0 +1,26 @@
+_id: fld_9211a7f539334f0fae43a3515aaa7aed
+type: RequestGroup
+parentId: wrk_78364b1a8d4448068aad13e81f1f21af
+modified: 1668620742394
+created: 1668446706965
+name: Doc Verification - UI Path
+description: ""
+environment:
+  uiPathApi: https://cloud.uipath.com/siliconpartners/TSP_Internal
+  organizationId: "1268752"
+  grantType: client_credentials
+  clientId: 26b10185-1164-4e65-87b8-ce898342f678
+  clientSecret: rCF^CsjY$J9DS*NQ
+  scope: Du.Digitization.Api Du.DocumentManager.Document Du.Extraction.Api
+    OR.Execution OR.Jobs OR.Robots
+  robotId: "54397"
+environmentPropertyOrder:
+  "&":
+    - uiPathApi
+    - organizationId
+    - grantType
+    - clientId
+    - clientSecret
+    - scope
+    - robotId
+metaSortKey: -1659890063487.375

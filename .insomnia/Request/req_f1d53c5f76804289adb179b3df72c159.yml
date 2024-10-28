@@ -1,0 +1,42 @@
+_id: req_f1d53c5f76804289adb179b3df72c159
+type: Request
+parentId: fld_9211a7f539334f0fae43a3515aaa7aed
+modified: 1669120033334
+created: 1668446837957
+url: https://cloud.uipath.com/identity_/connect/token
+name: 1 - OAuth Token
+description: ""
+method: POST
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_509bd6a132864cf69ca6a74bc23ca1df
+      name: grant_type
+      value: "{{ _.grantType }}"
+      description: ""
+    - id: pair_e91584fd0a0a43fbb968d5b7a805d9fd
+      name: client_id
+      value: "{{ _.clientId }}"
+      description: ""
+    - id: pair_3e7f0b7e926a468c8975df7bd91dc1d0
+      name: client_secret
+      value: "{{ _.clientSecret }}"
+      description: ""
+    - id: pair_604966a0e65c4b3891140ba0e596ac06
+      name: scope
+      value: "{{ _.scope }}"
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+    id: pair_db3e2ac4ad784cbcb34cea0667dd929b
+authentication: {}
+metaSortKey: -1668446837957
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,36 @@
+_id: req_4f819fa9a2844b449ae9b5ba0bf4b702
+type: Request
+parentId: fld_9b3977ad791a4a85bcd0f10b21618426
+modified: 1666464981481
+created: 1666464981481
+url: "{{ _.resourceUrl }}/group/1"
+name: Group
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_775872f4ee674f6db52b226f253b0aa8
+    name: page
+    value: "0"
+    description: ""
+  - id: pair_162f5458ca6d4c519880080a67dfe707
+    name: limit
+    value: "10"
+    description: ""
+  - id: pair_abce4b0697924f91a78d3890fd2f524c
+    name: ""
+    value: ""
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_902295345c0e4bd5aa8613b58c54bcab', '',
+    'when-expired', 300 %}"
+metaSortKey: -1663722461184.875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

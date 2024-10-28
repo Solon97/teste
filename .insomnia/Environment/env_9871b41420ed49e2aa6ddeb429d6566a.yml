@@ -1,0 +1,14 @@
+_id: env_9871b41420ed49e2aa6ddeb429d6566a
+type: Environment
+parentId: env_ec9add2c96b9433e88a252452a8b3e10
+modified: 1730122516805
+created: 1674149677926
+name: PRD
+data:
+  apiUrl: https://paymenthub.tsp.tech/nest
+dataPropertyOrder:
+  "&":
+    - apiUrl
+color: null
+isPrivate: false
+metaSortKey: 1674149677926

@@ -1,0 +1,34 @@
+_id: req_f9929e05309d4585a7b812246b4d4f72
+type: Request
+parentId: fld_4f14b0a8f9cc4ae4b0c4944920b6a18d
+modified: 1665173032444
+created: 1663770668314
+url: https://tsppoc.duckdns.org/service/api/zoho/project/v2/753181264/330968000028300001
+name: project
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_67fe87982304450f8f18288fcc09d0f1
+    name: limit
+    value: "1"
+    description: ""
+    disabled: true
+  - id: pair_cfc4690732c2422f8575c37989c4c992
+    name: page
+    value: "0"
+    description: ""
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_902295345c0e4bd5aa8613b58c54bcab', '',
+    'when-expired', 300 %}"
+metaSortKey: -1662788149088.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

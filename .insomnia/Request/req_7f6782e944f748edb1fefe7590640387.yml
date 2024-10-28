@@ -1,0 +1,36 @@
+_id: req_7f6782e944f748edb1fefe7590640387
+type: Request
+parentId: fld_2c0cd1b3ba7e443f852d19e848eac6da
+modified: 1668097194688
+created: 1668092294364
+url: https://people.zoho.com/people/api/forms/json/P_TimesheetJob/updateRecord
+name: Modify Job
+description: ""
+method: POST
+body: {}
+parameters:
+  - id: pair_1ab60f6ca1a74540aca3d50c8c645b18
+    name: recordId
+    value: "481633000002889001"
+    description: ""
+  - id: pair_663240a8c42a437890f12e5419a2d07d
+    name: inputData
+    value: '{"Assignees": "481633000000919001;481633000000726005"}'
+    description: ""
+  - id: pair_f6981e7f5ddb408e82952c3fa408900a
+    name: inputType
+    value: json
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_fd6ee35a618a4d8d8eacc26602107e89',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 300 %}"
+metaSortKey: -1664387964316.5469
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

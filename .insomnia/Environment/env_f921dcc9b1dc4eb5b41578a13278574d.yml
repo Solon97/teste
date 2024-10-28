@@ -1,0 +1,14 @@
+_id: env_f921dcc9b1dc4eb5b41578a13278574d
+type: Environment
+parentId: env_ec9add2c96b9433e88a252452a8b3e10
+modified: 1730122492486
+created: 1663941451470
+name: QAS
+data:
+  apiUrl: https://paymenthub.dev.tsp.tech/nest
+dataPropertyOrder:
+  "&":
+    - apiUrl
+color: null
+isPrivate: false
+metaSortKey: 1663941451470

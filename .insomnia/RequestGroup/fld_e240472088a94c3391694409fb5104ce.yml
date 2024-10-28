@@ -1,0 +1,13 @@
+_id: fld_e240472088a94c3391694409fb5104ce
+type: RequestGroup
+parentId: fld_5a867b7a19ca4050adb47029a11d0750
+modified: 1666359950265
+created: 1666359901500
+name: Users
+description: ""
+environment:
+  resourceUrl: "{{ _.moduleUrl }}/user"
+environmentPropertyOrder:
+  "&":
+    - resourceUrl
+metaSortKey: -1663764822537

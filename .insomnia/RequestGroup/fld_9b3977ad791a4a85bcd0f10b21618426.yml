@@ -1,0 +1,13 @@
+_id: fld_9b3977ad791a4a85bcd0f10b21618426
+type: RequestGroup
+parentId: fld_cae1b0cfab8f4926a973fd261bda53da
+modified: 1666464986965
+created: 1666464981472
+name: ProcessEventLog
+description: ""
+environment:
+  resourceUrl: "{{ _.moduleUrl }}/process-event-log"
+environmentPropertyOrder:
+  "&":
+    - resourceUrl
+metaSortKey: -1663739394600

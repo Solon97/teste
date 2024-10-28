@@ -1,0 +1,34 @@
+_id: req_66723276d3974bfcbbd595b6eb15a95b
+type: Request
+parentId: fld_c8d950c033d64d959082e9a8f82dd2a3
+modified: 1668097772669
+created: 1666720493136
+url: "{{ _.resourceUrl }}/clear-logs"
+name: Clean
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    "processId": "63628014293d61da76d02fb3",
+    	"time": {
+    		"minutes": 2
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_902295345c0e4bd5aa8613b58c54bcab', '', 'always',
+    300 %}"
+metaSortKey: -1663730865684.3389
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

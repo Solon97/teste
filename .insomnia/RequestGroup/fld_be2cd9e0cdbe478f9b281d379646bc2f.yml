@@ -1,0 +1,13 @@
+_id: fld_be2cd9e0cdbe478f9b281d379646bc2f
+type: RequestGroup
+parentId: fld_e57442d2d8a24de0b645a2fbb2cf8bd7
+modified: 1665407647460
+created: 1665407641204
+name: Package
+description: ""
+environment:
+  resourceUrl: "{{ _.moduleUrl }}/package"
+environmentPropertyOrder:
+  "&":
+    - resourceUrl
+metaSortKey: -1663760584547.5

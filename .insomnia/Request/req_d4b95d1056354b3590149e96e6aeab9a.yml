@@ -1,0 +1,48 @@
+_id: req_d4b95d1056354b3590149e96e6aeab9a
+type: Request
+parentId: fld_4f14b0a8f9cc4ae4b0c4944920b6a18d
+modified: 1719249439729
+created: 1719247851647
+url: "{{ _.apiUrl }}/applications/zoho-center/process-event-branch/clear-logs"
+name: clear-logs
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"time": {
+    		"day": 15
+    	}
+    }
+parameters:
+  - id: pair_67fe87982304450f8f18288fcc09d0f1
+    name: time
+    value: "{day: 1}"
+    description: ""
+    disabled: true
+  - id: pair_cfc4690732c2422f8575c37989c4c992
+    name: processId
+    value: 664f3a1210e54cb4323569cc
+    description: ""
+    disabled: true
+  - id: pair_2a226f40da2349b9b8072be27a9ace2a
+    name: processId
+    value: Project Import - Zoho Projects Tasks
+    description: ""
+    disabled: true
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_946da0b470bd4563ba61d67105782847', '',
+    'when-expired', 300 %}"
+metaSortKey: -1663043777232.293
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,49 @@
+_id: req_4fa44abac1a64bab8aba43092e4759eb
+type: Request
+parentId: fld_2c0cd1b3ba7e443f852d19e848eac6da
+modified: 1689193269155
+created: 1673379479264
+url: https://projectsapi.zoho.com/restapi/portal/ixervlac/projects/1375929000005784009/statuses/
+name: Projects List
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_e35b835c542241939e402f40a389775e
+    name: view_type
+    value: month
+    description: ""
+    disabled: true
+  - id: pair_af45c56feaab4d7cad4b3e0529f6dd97
+    name: users_list
+    value: "789048134"
+    description: ""
+    disabled: true
+  - id: pair_606b54ad19474bf28c78b18e5e32731c
+    name: date
+    value: 11-01-2022
+    description: ""
+    disabled: true
+  - id: pair_d5ff0002fa8f45f3a6543ff45224982c
+    name: bill_status
+    value: All
+    description: ""
+    disabled: true
+  - id: pair_9626a63d9a3d4f5492d55527471b70a5
+    name: component_type
+    value: task
+    description: ""
+    disabled: true
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_8e2a921e09464f8f90ddbef0d8a26206',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'when-expired', 300 %}"
+metaSortKey: -1664387516963.2188
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

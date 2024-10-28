@@ -1,0 +1,33 @@
+_id: req_192d536184104a5a89b78ec970ec1774
+type: Request
+parentId: fld_4f14b0a8f9cc4ae4b0c4944920b6a18d
+modified: 1695391318783
+created: 1663760562184
+url: http://localhost:3000/service/api/zoho/user/
+name: users
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_67fe87982304450f8f18288fcc09d0f1
+    name: limit
+    value: "1"
+    description: ""
+  - id: pair_cfc4690732c2422f8575c37989c4c992
+    name: page
+    value: "0"
+    description: ""
+    disabled: false
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_946da0b470bd4563ba61d67105782847', '',
+    'when-expired', 300 %}"
+metaSortKey: -1663177677688.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

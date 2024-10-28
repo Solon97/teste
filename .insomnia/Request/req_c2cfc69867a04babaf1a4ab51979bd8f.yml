@@ -1,0 +1,62 @@
+_id: req_c2cfc69867a04babaf1a4ab51979bd8f
+type: Request
+parentId: fld_89b86d67f0884652ab3df2e75c88877b
+modified: 1701174047229
+created: 1664479804252
+url: "{{ _.resourceUrl }}/billingBatch"
+name: List
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"orderDirection": "asc",
+    	"limit": 10,
+    	"page": 0,
+    	"orderBy": "User.firstName",
+    	"active": true,
+    	"activeBook": true,
+    	"month": "11",
+    	"year": "2023"
+    }
+parameters:
+  - name: page
+    value: "0"
+    id: pair_426b7e3cc5ec45c69cb643b4bd78c1eb
+  - name: limit
+    value: "100"
+    id: pair_3fa25ce06d564c208fdf86eadabe7893
+  - name: orderDirection
+    value: asc
+    id: pair_ef60797c3eb0488e920ff41079f2998e
+  - name: orderBy
+    value: User.firstName
+    id: pair_193267d489264f5abead33bec9579200
+  - name: active
+    value: "true"
+    id: pair_1b51937b6ad046378ec9f4c3e171d96f
+  - name: activeBook
+    value: "true"
+    id: pair_392f6aad26444a4cb1f20ec13f65222d
+  - name: month
+    value: "10"
+    id: pair_254c20f6690d4cd7be2319bac67902cf
+  - name: year
+    value: "2023"
+    id: pair_34c8a4cc13d245ae9a66582a67d26854
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_946da0b470bd4563ba61d67105782847', '',
+    'when-expired', 300 %}"
+metaSortKey: -1663730931861.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

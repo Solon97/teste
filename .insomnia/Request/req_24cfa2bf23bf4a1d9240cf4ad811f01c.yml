@@ -1,0 +1,56 @@
+_id: req_24cfa2bf23bf4a1d9240cf4ad811f01c
+type: Request
+parentId: fld_cae1b0cfab8f4926a973fd261bda53da
+modified: 1695909537660
+created: 1695730474317
+url: "{{ _.moduleUrl }}/books/timetracker/gettimesheet"
+name: List
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_775872f4ee674f6db52b226f253b0aa8
+    name: page
+    value: "0"
+    description: ""
+    disabled: false
+  - id: pair_162f5458ca6d4c519880080a67dfe707
+    name: limit
+    value: "10"
+    description: ""
+    disabled: false
+  - id: pair_e138d349c1c54aadb3a9839e241cc5d7
+    name: email
+    value: ssingh8@tsp.tech
+    description: ""
+    disabled: false
+  - id: pair_1b844278795644f2b4a2920cb3647e37
+    name: fromDate
+    value: 2023-01-01
+    description: ""
+  - id: pair_9c783367279844e2a7e139ba2032cd2a
+    name: toDate
+    value: 2023-12-31
+    description: ""
+  - id: pair_d2fc2d84d7b84a7483b6cd7531dc871b
+    name: email
+    value: bambrozio@tsp.tech
+    description: ""
+    disabled: true
+  - id: pair_bd57f8a1cc5e47aea09048d5539ba062
+    name: zohoUserId
+    value: 650e1b3907efad7abfd62895
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_946da0b470bd4563ba61d67105782847', '',
+    'when-expired', 300 %}"
+metaSortKey: -1679747643162
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

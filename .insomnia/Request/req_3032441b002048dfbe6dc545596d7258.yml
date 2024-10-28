@@ -1,0 +1,28 @@
+_id: req_3032441b002048dfbe6dc545596d7258
+type: Request
+parentId: fld_ae4bbeb93da7411795796bb8d0df322c
+modified: 1695144010222
+created: 1690999886654
+url: "{{ _.resourceUrl }}/monthlyReport"
+name: Montlhy Report
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_f1de4f7582fc4f82b23ac046aa8489cf
+    name: ""
+    value: ""
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_5c46352951c041ba99aa18bf2e69fd95', '',
+    'when-expired', 60 %}"
+metaSortKey: -1663730921502.5686
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

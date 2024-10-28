@@ -1,0 +1,27 @@
+_id: req_d34d4b81a72f403b8eca81f6e1a92280
+type: Request
+parentId: wrk_78364b1a8d4448068aad13e81f1f21af
+modified: 1726682651495
+created: 1726682581314
+url: ""
+name: Docusign
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: ntlm
+  disabled: false
+  username: ""
+  password: ""
+metaSortKey: -1726682581314
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

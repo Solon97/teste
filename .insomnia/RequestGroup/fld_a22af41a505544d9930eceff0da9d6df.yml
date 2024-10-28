@@ -1,0 +1,13 @@
+_id: fld_a22af41a505544d9930eceff0da9d6df
+type: RequestGroup
+parentId: wrk_78364b1a8d4448068aad13e81f1f21af
+modified: 1668597580423
+created: 1659640106091
+name: Core
+description: ""
+environment:
+  moduleUrl: "{{ _.apiUrl }}/core"
+environmentPropertyOrder:
+  "&":
+    - moduleUrl
+metaSortKey: -1668446707015

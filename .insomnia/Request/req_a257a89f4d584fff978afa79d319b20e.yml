@@ -1,0 +1,24 @@
+_id: req_a257a89f4d584fff978afa79d319b20e
+type: Request
+parentId: fld_6bf2e00dab1b4c26a02a90f3fd0b1ad9
+modified: 1712254214198
+created: 1712254088193
+url: "{{ _.resourceUrl }}/importTickets"
+name: import importTickets
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_946da0b470bd4563ba61d67105782847', '',
+    'when-expired', 300 %}"
+metaSortKey: -1663724578854.0312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

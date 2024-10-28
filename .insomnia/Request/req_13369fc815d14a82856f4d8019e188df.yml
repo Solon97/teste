@@ -1,0 +1,24 @@
+_id: req_13369fc815d14a82856f4d8019e188df
+type: Request
+parentId: fld_6bf2e00dab1b4c26a02a90f3fd0b1ad9
+modified: 1666473304574
+created: 1666473304574
+url: "{{ _.resourceUrl }}/223"
+name: Create Timesheet
+description: ""
+method: POST
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_902295345c0e4bd5aa8613b58c54bcab', '',
+    'when-expired', 300 %}"
+metaSortKey: -1663726696523.1875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

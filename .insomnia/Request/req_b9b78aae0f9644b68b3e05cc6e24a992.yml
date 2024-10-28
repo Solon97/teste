@@ -1,0 +1,36 @@
+_id: req_b9b78aae0f9644b68b3e05cc6e24a992
+type: Request
+parentId: fld_9211a7f539334f0fae43a3515aaa7aed
+modified: 1668797508114
+created: 1668619700949
+url: "{{ _.uiPathApi }}/orchestrator_/odata/Jobs({% response 'body',
+  'req_1fe0783e418742daa8dd99b3ab16b6f2', 'b64::JC52YWx1ZS4wLklk::46b', 'never',
+  60 %})"
+name: 6 - Get Extracted Information
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_247b7aa1ea8d4b159449370f9b1275b1
+    disabled: false
+  - id: pair_c4196364b8c8438a9921aa99aa5e9a53
+    name: X-UIPATH-OrganizationUnitId
+    value: "{{ _.organizationId }}"
+    description: ""
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_5321193212ec40dcbf0cbff6ac5a455e',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 300 %}"
+metaSortKey: -1667546604859.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,13 @@
+_id: fld_e57442d2d8a24de0b645a2fbb2cf8bd7
+type: RequestGroup
+parentId: wrk_78364b1a8d4448068aad13e81f1f21af
+modified: 1664982549379
+created: 1664982515505
+name: IntegrationCenter
+description: ""
+environment:
+  moduleUrl: "{{ _.apiUrl }}/applications/integration-center"
+environmentPropertyOrder:
+  "&":
+    - moduleUrl
+metaSortKey: -1660389978355.125

@@ -1,0 +1,26 @@
+_id: req_edb448ba028b41dc8a044eadc01af15b
+type: Request
+parentId: fld_9211a7f539334f0fae43a3515aaa7aed
+modified: 1668710354476
+created: 1668710267879
+url: "{{ _.apiUrl }}/applications/document-verification/ocr-document/test"
+name: Test
+description: ""
+method: GET
+body:
+  mimeType: application/x-www-form-urlencoded
+  params: []
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_902295345c0e4bd5aa8613b58c54bcab', '',
+    'when-expired', 300 %}"
+metaSortKey: -1668446838007
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

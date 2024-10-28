@@ -1,0 +1,44 @@
+_id: req_b07a9e1405d843fc861ad54d5641b9e5
+type: Request
+parentId: fld_9211a7f539334f0fae43a3515aaa7aed
+modified: 1669127657799
+created: 1668448208676
+url: "{{ _.uiPathApi
+  }}/orchestrator_/odata/Jobs/UiPath.Server.Configuration.OData.StartJobs"
+name: 5 - Start Job
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+      "startInfo": {
+        "ReleaseKey": "{% response 'body', 'req_5d414464d0724c57821aaa3c72eb46fc', 'b64::JC52YWx1ZS4wLktleQ==::46b', 'when-expired', 900 %}",
+        "Strategy":"Specific",
+        "RobotIds": [54397],
+        "JobsCount":0,
+        "InputArguments":"{'in_operationID': '{% response 'body', 'req_9ffe502a52424888ab50589cb1d8c950', 'b64::JC5vcGVyYXRpb25JZA==::46b', 'always', 60 %}'}"
+      }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_247b7aa1ea8d4b159449370f9b1275b1
+    disabled: false
+  - id: pair_c4196364b8c8438a9921aa99aa5e9a53
+    name: X-UIPATH-OrganizationUnitId
+    value: "{{ _.organizationId }}"
+    description: ""
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_5321193212ec40dcbf0cbff6ac5a455e',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 300 %}"
+metaSortKey: -1667846682542
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

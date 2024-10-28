@@ -1,0 +1,24 @@
+_id: req_666feadfb9474d88b02a226d2dc02f28
+type: Request
+parentId: fld_e240472088a94c3391694409fb5104ce
+modified: 1667829444718
+created: 1666359963658
+url: "{{ _.resourceUrl }}/instances"
+name: Instances
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_902295345c0e4bd5aa8613b58c54bcab', '',
+    'when-expired', 300 %}"
+metaSortKey: -1663729873026.9219
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

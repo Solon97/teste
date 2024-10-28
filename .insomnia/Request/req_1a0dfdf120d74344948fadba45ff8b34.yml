@@ -1,0 +1,63 @@
+_id: req_1a0dfdf120d74344948fadba45ff8b34
+type: Request
+parentId: fld_2c0cd1b3ba7e443f852d19e848eac6da
+modified: 1674744597316
+created: 1674741196095
+url: https://desk.zoho.com/api/v1/tickets
+name: Desk Tickets
+description: ""
+method: GET
+body:
+  mimeType: application/x-www-form-urlencoded
+  params:
+    - id: pair_c4c1756be97a408c870e3560caffe30b
+      name: include
+      value: owner
+      description: ""
+      disabled: true
+parameters:
+  - id: pair_48df470508ba44ca9ce78ec6e7d6efaf
+    name: from
+    value: "900"
+    description: ""
+    disabled: false
+  - id: pair_967547fa585c480d88ee7dd47e2a13c2
+    name: limit
+    value: "100"
+    description: ""
+    disabled: false
+  - id: pair_35857722c6f4426c879666bda2af9ded
+    name: modifiedTimeRange
+    value: 2022-10-01T05:00:00.000Z,2022-10-30T00:00:00.000Z
+    description: ""
+    disabled: true
+  - id: pair_0628ebe258474c5894e72843d44f3151
+    name: orderBy
+    value: DESC
+    description: ""
+    disabled: true
+  - id: pair_97876d96157c4bf2a494402c489528b8
+    name: module
+    value: tasks
+    description: ""
+    disabled: true
+  - id: pair_170ba9e520774d3fb76dc371cac18458
+    name: include
+    value: contacts
+    description: ""
+    disabled: false
+headers:
+  - name: Content-Type
+    value: application/x-www-form-urlencoded
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_eac555a47ad244fb9f8e16a73c7a4fab',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1664386296908.6875
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

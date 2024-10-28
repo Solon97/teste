@@ -1,0 +1,13 @@
+_id: fld_14346834f2084ca7aceea219586e67d2
+type: RequestGroup
+parentId: fld_a22af41a505544d9930eceff0da9d6df
+modified: 1659721565367
+created: 1659721554320
+name: ValueMapping
+description: ""
+environment:
+  resourceUrl: "{{ _.moduleUrl }}/value-mapping"
+environmentPropertyOrder:
+  "&":
+    - resourceUrl
+metaSortKey: -1658683473351.5

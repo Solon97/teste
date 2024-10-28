@@ -1,0 +1,40 @@
+_id: req_414d5e87adc749e3bff14706b34c6336
+type: Request
+parentId: fld_e240472088a94c3391694409fb5104ce
+modified: 1667831673110
+created: 1666359901505
+url: "{{ _.resourceUrl }}"
+name: List
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_775872f4ee674f6db52b226f253b0aa8
+    name: page
+    value: "0"
+    description: ""
+  - id: pair_162f5458ca6d4c519880080a67dfe707
+    name: limit
+    value: "10"
+    description: ""
+  - id: pair_9b9f1c9c411048ab9f262d18fa3e6afd
+    name: term
+    value: brun0
+    description: ""
+  - id: pair_65d1bd185d854fc6af28d7942f819270
+    name: instanceId
+    value: "1"
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_902295345c0e4bd5aa8613b58c54bcab', '',
+    'when-expired', 300 %}"
+metaSortKey: -1663730931861.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,28 @@
+_id: req_5a162fcb584d4799bcc2403804715896
+type: Request
+parentId: fld_9211a7f539334f0fae43a3515aaa7aed
+modified: 1668709088098
+created: 1668598787313
+url: "{{ _.uiPathApi }}/orchestrator_/odata/Releases"
+name: 2 - Get Release Key
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_48ce43ba62404c2c868eff592249b782
+    name: X-UIPATH-OrganizationUnitId
+    value: "{{ _.organizationId }}"
+    description: ""
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_5321193212ec40dcbf0cbff6ac5a455e',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 300 %}"
+metaSortKey: -1668446837932
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

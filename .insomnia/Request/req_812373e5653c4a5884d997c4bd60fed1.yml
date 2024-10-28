@@ -1,0 +1,24 @@
+_id: req_812373e5653c4a5884d997c4bd60fed1
+type: Request
+parentId: fld_6145884ad4c440efb0c3370fa6428ef8
+modified: 1709216328802
+created: 1695391505476
+url: http://localhost:3000/applications/zoho-enter/DeskCosts/customers
+name: Manual Import - Zoho People
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_946da0b470bd4563ba61d67105782847', '', 'always',
+    300 %}"
+metaSortKey: -1663730931961.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

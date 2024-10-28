@@ -1,0 +1,47 @@
+_id: req_20e9c476f5324898bd29d2307410b5a7
+type: Request
+parentId: fld_65af1496299643189a2eb7ccac51724d
+modified: 1716838493995
+created: 1716812291055
+url: "{{ _.apiUrl }}/applications/dashboard/dashboard/getTasksDetails"
+name: getTasksDetails
+description: ""
+method: GET
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_bc829123dfd849ccaa09c540f897b80d
+      name: status
+      value: expiredTasks
+      description: ""
+parameters:
+  - id: pair_67fe87982304450f8f18288fcc09d0f1
+    name: limit
+    value: "1"
+    description: ""
+    disabled: false
+  - id: pair_cfc4690732c2422f8575c37989c4c992
+    name: page
+    value: "0"
+    description: ""
+    disabled: false
+  - id: pair_a60fc2da951f4f3da9079de7678e71cd
+    name: status
+    value: Open
+    description: ""
+    disabled: false
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_946da0b470bd4563ba61d67105782847', '',
+    'when-expired', 300 %}"
+metaSortKey: -1709354963604.625
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

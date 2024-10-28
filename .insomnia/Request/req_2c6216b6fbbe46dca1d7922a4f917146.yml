@@ -1,0 +1,46 @@
+_id: req_2c6216b6fbbe46dca1d7922a4f917146
+type: Request
+parentId: fld_6145884ad4c440efb0c3370fa6428ef8
+modified: 1695730438142
+created: 1664662740156
+url: "{{ _.resourceUrl }}"
+name: List
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_775872f4ee674f6db52b226f253b0aa8
+    name: page
+    value: "0"
+    description: ""
+  - id: pair_162f5458ca6d4c519880080a67dfe707
+    name: limit
+    value: "10"
+    description: ""
+  - id: pair_8022edd9996e43c698b4bc8ceb359c7d
+    name: zohoUserId
+    value: 63d1521172886cf6e00d5ccf
+    description: ""
+  - id: pair_2898aedd98b148bf8e928525eafb9a23
+    name: fromDate
+    value: 2023-01-01
+    description: ""
+    disabled: true
+  - id: pair_bf19d8a02da04c43b1fb265f39db4154
+    name: toDate
+    value: 2023-01-31
+    description: ""
+    disabled: true
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_5c46352951c041ba99aa18bf2e69fd95', '',
+    'when-expired', 300 %}"
+metaSortKey: -1663730931861.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

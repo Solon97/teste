@@ -1,0 +1,36 @@
+_id: req_1a74ccfe144b430b913901ca515e5d74
+type: Request
+parentId: fld_17fa22cae96d424688230df887f77325
+modified: 1669746947421
+created: 1669746942321
+url: "{{ _.resourceUrl }}/from-user"
+name: From User
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_775872f4ee674f6db52b226f253b0aa8
+    name: page
+    value: "0"
+    description: ""
+  - id: pair_162f5458ca6d4c519880080a67dfe707
+    name: limit
+    value: "10"
+    description: ""
+  - id: pair_8022edd9996e43c698b4bc8ceb359c7d
+    name: coreUserId
+    value: "66"
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_902295345c0e4bd5aa8613b58c54bcab', '',
+    'when-expired', 300 %}"
+metaSortKey: -1663730898772.9194
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

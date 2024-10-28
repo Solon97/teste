@@ -1,0 +1,31 @@
+_id: req_0be72194b9b14c5c808460fc34546953
+type: Request
+parentId: fld_ae4bbeb93da7411795796bb8d0df322c
+modified: 1689874171905
+created: 1689707716267
+url: "{{ _.resourceUrl }}/"
+name: Save
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"reportingTo": "Bruno Ambrozio LAC-00037"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_5c46352951c041ba99aa18bf2e69fd95', '',
+    'when-expired', 300 %}"
+metaSortKey: -1663730931811.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

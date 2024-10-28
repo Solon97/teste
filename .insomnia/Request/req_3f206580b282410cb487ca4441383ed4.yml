@@ -1,0 +1,28 @@
+_id: req_3f206580b282410cb487ca4441383ed4
+type: Request
+parentId: fld_ae4bbeb93da7411795796bb8d0df322c
+modified: 1689874165022
+created: 1689873482061
+url: "{{ _.resourceUrl }}/64b96b980fd8cd6104b49035"
+name: Delete
+description: ""
+method: DELETE
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_5c46352951c041ba99aa18bf2e69fd95', '',
+    'when-expired', 300 %}"
+metaSortKey: -1663730927687.9275
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

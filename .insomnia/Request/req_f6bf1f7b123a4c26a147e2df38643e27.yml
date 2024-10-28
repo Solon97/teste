@@ -1,0 +1,38 @@
+_id: req_f6bf1f7b123a4c26a147e2df38643e27
+type: Request
+parentId: fld_2c0cd1b3ba7e443f852d19e848eac6da
+modified: 1685385241253
+created: 1664388086322
+url: https://people.zoho.com/people/api/forms/employee/getRecords
+name: People Employees
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_366c611b116b4201b0c95d35ff6c67f9
+    name: searchParams
+    value: "{searchField: 'EmailID', searchOperator: 'Equals', searchText :
+      'rgonzalez1@tsp.tech'}"
+    description: ""
+    disabled: true
+  - id: pair_d327870cb10e4264a0e912fe5dca1385
+    name: sIndex
+    value: "100"
+    description: ""
+  - id: pair_d6391c923b984df49384326e4f34ab6d
+    name: limit
+    value: "100"
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_fd6ee35a618a4d8d8eacc26602107e89',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1664388086322
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

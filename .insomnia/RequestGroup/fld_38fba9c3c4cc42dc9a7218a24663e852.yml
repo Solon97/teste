@@ -1,0 +1,13 @@
+_id: fld_38fba9c3c4cc42dc9a7218a24663e852
+type: RequestGroup
+parentId: fld_a22af41a505544d9930eceff0da9d6df
+modified: 1659723337580
+created: 1659723322668
+name: ConfigParameter
+description: ""
+environment:
+  resourceUrl: "{{ _.moduleUrl }}/config-parameter"
+environmentPropertyOrder:
+  "&":
+    - resourceUrl
+metaSortKey: -1657846806996.9375

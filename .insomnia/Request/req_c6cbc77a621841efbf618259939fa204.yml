@@ -1,0 +1,28 @@
+_id: req_c6cbc77a621841efbf618259939fa204
+type: Request
+parentId: fld_ae4bbeb93da7411795796bb8d0df322c
+modified: 1712156252909
+created: 1709574432947
+url: "{{ _.moduleUrl }}/weekly-report/weeklyReportGeneralManagers"
+name: Weekly Report General Managers
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_f1de4f7582fc4f82b23ac046aa8489cf
+    name: emails
+    value: pmoris@tsp.tech
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_946da0b470bd4563ba61d67105782847', '',
+    'when-expired', 60 %}"
+metaSortKey: -1663730921566.9995
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

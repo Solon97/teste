@@ -1,0 +1,24 @@
+_id: req_29762696444148bfb3f38f0d1559ec5c
+type: Request
+parentId: fld_6145884ad4c440efb0c3370fa6428ef8
+modified: 1695417544143
+created: 1695417541224
+url: http://localhost:3000/applications/zoho-center/user/job-testZohoDesk
+name: Manual Import - Zoho Desk
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_946da0b470bd4563ba61d67105782847', '', 'always',
+    300 %}"
+metaSortKey: -1663730931911.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

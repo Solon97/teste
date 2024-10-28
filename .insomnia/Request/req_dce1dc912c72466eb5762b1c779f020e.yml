@@ -1,0 +1,38 @@
+_id: req_dce1dc912c72466eb5762b1c779f020e
+type: Request
+parentId: fld_2c0cd1b3ba7e443f852d19e848eac6da
+modified: 1674760276460
+created: 1668092214849
+url: https://people.zoho.com/people/api/timetracker/getjobdetails
+name: Get Job Details
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_b1b74723b6b9451aaa3ae69a3e522c16
+    name: jobId
+    value: "707515000004019117"
+    description: ""
+  - id: pair_30a82da1216c4dfcbd5ae9ee8b575338
+    name: includeDept
+    value: "false"
+    description: ""
+    disabled: true
+  - id: pair_ed27ca655de44c9dacd966861d58d7b7
+    name: dateFormat
+    value: dd-MMM-yyyy
+    description: ""
+    disabled: true
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_fd6ee35a618a4d8d8eacc26602107e89',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'never', 60 %}"
+metaSortKey: -1664388004985.0312
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

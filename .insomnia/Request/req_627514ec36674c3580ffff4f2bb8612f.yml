@@ -1,0 +1,47 @@
+_id: req_627514ec36674c3580ffff4f2bb8612f
+type: Request
+parentId: fld_9211a7f539334f0fae43a3515aaa7aed
+modified: 1669127634436
+created: 1668447775914
+url: "{{ _.uiPathApi }}/du_/api/digitization/digitize/start?api-version=1"
+name: 4 - Send Document
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_8b4f8513103a41749b8b1ffb5a432952
+      name: file
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\Paulo Vitor\Downloads\DRIVERS_LICENSE.png
+    - id: pair_b7caba42b9714028aa4f51754242b665
+      name: ""
+      value: ""
+      description: ""
+    - id: pair_f7fdabba21274e04b7a31fd19c58c2a8
+      name: ""
+      value: ""
+      description: ""
+    - id: pair_b93cfe36e8c34ed6ac5faed6b7e8c77c
+      name: ""
+      value: ""
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+    id: pair_73ba276181844b03ab5f1c88d7df5750
+authentication:
+  type: bearer
+  token: "{% response 'body', 'req_5321193212ec40dcbf0cbff6ac5a455e',
+    'b64::JC5hY2Nlc3NfdG9rZW4=::46b', 'always', 300 %}"
+metaSortKey: -1668146760224.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

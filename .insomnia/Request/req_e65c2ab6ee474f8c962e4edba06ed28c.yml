@@ -1,0 +1,48 @@
+_id: req_e65c2ab6ee474f8c962e4edba06ed28c
+type: Request
+parentId: fld_9e919a5d39fa4c44bd27e8eeebf2c030
+modified: 1670613204507
+created: 1665407655012
+url: "{{ _.resourceUrl }}/step/test_iflow"
+name: List
+description: ""
+method: GET
+body: {}
+parameters:
+  - id: pair_5be8242e248d4a46ab9b5313589a036d
+    name: $top
+    value: "2"
+    description: ""
+    disabled: true
+  - id: pair_d5ca70a21cf9415b99a0d15ea0a128e5
+    name: paging
+    value: snapshot
+    description: ""
+    disabled: false
+  - id: pair_6fcd2c8271d44fadac6253bc283106d5
+    name: $skip
+    value: "0"
+    description: ""
+    disabled: true
+  - id: pair_db792d49b7fc4792a30df51e550cd87e
+    name: $select
+    value: firstName,lastName
+    description: ""
+    disabled: true
+  - id: pair_c8f5fc44c820407ba398cabd991c9759
+    name: $skiptoken
+    value: eyJzdGFydFJvdyI6MTAwMCwiZW5kUm93IjoyMDAwLCJwYWdpbmciOiJzbmFwc2hvdCIsInBhZ2VTaXplIjoxMDAwLCJzbmFwc2hvdE5hbWUiOiJzbmFwc2hvdF8yY2RjYmE2OV85NjYwXzQxMGZfYmZiNl8xZTY3M2Q3YmQ3MWJfcHM3MGJzZmFwaTEwMDVfMTE5MyJ9
+    description: ""
+headers: []
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_902295345c0e4bd5aa8613b58c54bcab', '',
+    'when-expired', 300 %}"
+metaSortKey: -1663730931861.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

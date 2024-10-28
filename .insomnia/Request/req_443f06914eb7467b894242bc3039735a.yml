@@ -1,0 +1,40 @@
+_id: req_443f06914eb7467b894242bc3039735a
+type: Request
+parentId: fld_4bb8515cdbcb48dfab1b4fc9477d099c
+modified: 1664982515529
+created: 1664982515529
+url: "{{ _.resourceUrl }}"
+name: Save
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Ferri LTDA"
+    }
+parameters:
+  - id: pair_775872f4ee674f6db52b226f253b0aa8
+    name: page
+    value: "0"
+    description: ""
+  - id: pair_162f5458ca6d4c519880080a67dfe707
+    name: limit
+    value: "10"
+    description: ""
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_6992b7a57e9f4cdd97341e9f038311ef
+authentication:
+  type: bearer
+  token: "{% response 'raw', 'req_902295345c0e4bd5aa8613b58c54bcab', '',
+    'when-expired', 300 %}"
+metaSortKey: -1663713990508.25
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

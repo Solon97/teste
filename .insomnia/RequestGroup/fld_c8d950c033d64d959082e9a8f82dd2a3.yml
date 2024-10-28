@@ -1,0 +1,13 @@
+_id: fld_c8d950c033d64d959082e9a8f82dd2a3
+type: RequestGroup
+parentId: fld_cae1b0cfab8f4926a973fd261bda53da
+modified: 1666466741891
+created: 1664570202824
+name: ProcessEvent
+description: ""
+environment:
+  resourceUrl: "{{ _.moduleUrl }}/process-event-branch"
+environmentPropertyOrder:
+  "&":
+    - resourceUrl
+metaSortKey: -1663747870579

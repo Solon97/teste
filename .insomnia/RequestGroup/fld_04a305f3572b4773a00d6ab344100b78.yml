@@ -1,0 +1,13 @@
+_id: fld_04a305f3572b4773a00d6ab344100b78
+type: RequestGroup
+parentId: fld_e57442d2d8a24de0b645a2fbb2cf8bd7
+modified: 1667828305590
+created: 1667828207909
+name: Log
+description: ""
+environment:
+  resourceUrl: "{{ _.moduleUrl }}/iflow-event-log"
+environmentPropertyOrder:
+  "&":
+    - resourceUrl
+metaSortKey: -1663757406055.375

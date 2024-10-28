@@ -1,0 +1,13 @@
+_id: fld_c3a81a97c6564f7595dbb86c3726f789
+type: RequestGroup
+parentId: fld_cae1b0cfab8f4926a973fd261bda53da
+modified: 1664732579016
+created: 1664732563053
+name: Process
+description: ""
+environment:
+  resourceUrl: "{{ _.moduleUrl }}/process"
+environmentPropertyOrder:
+  "&":
+    - resourceUrl
+metaSortKey: -1663752108568.5

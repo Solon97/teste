@@ -1,0 +1,13 @@
+_id: fld_4dc7c14ed7c7484dac3379803fdb41c1
+type: RequestGroup
+parentId: fld_a22af41a505544d9930eceff0da9d6df
+modified: 1659721718412
+created: 1659721705941
+name: Company
+description: ""
+environment:
+  resourceUrl: "{{ _.moduleUrl }}/company"
+environmentPropertyOrder:
+  "&":
+    - resourceUrl
+metaSortKey: -1658205378291.75

@@ -1,0 +1,13 @@
+_id: fld_6bf2e00dab1b4c26a02a90f3fd0b1ad9
+type: RequestGroup
+parentId: fld_cae1b0cfab8f4926a973fd261bda53da
+modified: 1666473310534
+created: 1666473304562
+name: Time Entry
+description: ""
+environment:
+  resourceUrl: "{{ _.moduleUrl }}/time-entry"
+environmentPropertyOrder:
+  "&":
+    - resourceUrl
+metaSortKey: -1663754227563.25
