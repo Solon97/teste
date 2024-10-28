@@ -1,13 +1,26 @@
 _id: env_3c750c40217c46cfb1eb666b8b0b34fe
 type: Environment
 parentId: env_ec9add2c96b9433e88a252452a8b3e10
-modified: 1730122677706
+modified: 1730127454626
 created: 1659639671358
 name: Local
 data:
-  apiUrl: http://localhost:3000
+  zoho:
+    people:
+      refresh_token: "{% base64 'encode', 'normal',
+        '1000.cf3a34bc50c4b4578b298127079eb9d9.08bfe21233630c1919b92d320673e748'
+        %}"
+  payment_hub:
+    apiUrl: http://localhost:3000
 dataPropertyOrder:
   "&":
+    - zoho
+    - payment_hub
+  "&~|zoho":
+    - people
+  "&~|zoho~|people":
+    - refresh_token
+  "&~|payment_hub":
     - apiUrl
 color: null
 isPrivate: false

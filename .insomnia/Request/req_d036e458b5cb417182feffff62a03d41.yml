@@ -1,7 +1,7 @@
 _id: req_d036e458b5cb417182feffff62a03d41
 type: Request
 parentId: fld_2c0cd1b3ba7e443f852d19e848eac6da
-modified: 1688820100992
+modified: 1730127468380
 created: 1667389525600
 url: https://accounts.zoho.com/oauth/v2/token
 name: Auth People
@@ -12,15 +12,15 @@ body:
   params:
     - id: pair_4cf3406701a0456db36b20f2d86814e9
       name: refresh_token
-      value: 1000.84f0e1d93a64780fd090329477868dac.91753ed32f0c066d911dbfbeae10643e
+      value: "{% base64 'decode', 'normal', _.zoho.people.refresh_token %}"
       description: ""
     - id: pair_780133acd19543abaa5f7974927078a8
       name: client_id
-      value: 1000.1NKQ3E0MCXYGZBIPGAJ4FQEU47TXFN
+      value: 1000.JGGASEKX58P3QYCNWGNYEYXYB5U4CE
       description: ""
     - id: pair_9152fb12120649359bb777ec8cc64e06
       name: client_secret
-      value: 939911f1c4332c79eea52e836b00a57226c580cacc
+      value: b1917d4377016447b83cd33648aa6bb9f9d632f562
       description: ""
     - id: pair_73be04529d024da282b7eea2bc371693
       name: grant_type

@@ -1,7 +1,7 @@
 _id: req_ebf3c8994abc4dde88a346ad43d49d68
 type: Request
 parentId: fld_14346834f2084ca7aceea219586e67d2
-modified: 1663760007545
+modified: 1730126566710
 created: 1659721554322
 url: "{{ _.resourceUrl }}"
 name: List
@@ -20,7 +20,7 @@ parameters:
 headers: []
 authentication:
   type: bearer
-  token: "{% response 'raw', 'req_902295345c0e4bd5aa8613b58c54bcab', '',
+  token: "{% response 'raw', 'req_3a75f96ff08c48b38d11049b01480f41', '',
     'when-expired', 300 %}"
 metaSortKey: -1659640361602
 isPrivate: false

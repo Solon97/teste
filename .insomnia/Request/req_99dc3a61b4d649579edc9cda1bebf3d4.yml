@@ -1,7 +1,7 @@
 _id: req_99dc3a61b4d649579edc9cda1bebf3d4
 type: Request
 parentId: fld_85a6ac5fa6b245f2878eb836678b4674
-modified: 1659721528068
+modified: 1730126555519
 created: 1659641990980
 url: "{{ _.resourceUrl }}"
 name: Save
@@ -21,7 +21,7 @@ headers:
     id: pair_df6cfc0b27354feaa2e4a375580f94bd
 authentication:
   type: bearer
-  token: "{% response 'raw', 'req_902295345c0e4bd5aa8613b58c54bcab', '',
+  token: "{% response 'raw', 'req_3a75f96ff08c48b38d11049b01480f41', '',
     'when-expired', 300 %}"
 metaSortKey: -1658683823224.5
 isPrivate: false
